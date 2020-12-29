@@ -13,9 +13,11 @@ Put the images under a folder named "Images"
 ## Train and Test
 Train:
 `python run_classifier.py --data_dir ./data/ --image_dir ./images/ --output_dir ./output/${i}_output/  --do_train --do_test --model_select ${i}`
+
 Test:
 `python run_classifier.py --data_dir ./data/ --image_dir ./images/ --output_dir ./output/${i}_output/  --do_test --model_select ${i}`
-Run all model:
+
+Run all models recursively:
 `sh run_classifier.sh`
 
 ## Saving
