@@ -3,5 +3,20 @@ This repository is an implementation for the paper "Modeling Intra and Inter-mod
 
 # How to use?
 ## Install
-  pip3 install -r requirements.txt
-  
+pip3 install -r requirements.txt
+
+const text = `
+code
+\`\`\`
+markdown
+\`\`\`
+`
+## Dataset
+You can find the Image data from https://github.com/headacheboy/data-of-multimodal-sarcasm-detection.
+Put the images under a folder named "Images"
+
+## Train and Test
+
+
+
+
