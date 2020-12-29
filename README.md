@@ -22,7 +22,9 @@ python run_classifier.py --data_dir ./data/ --image_dir ./images/ --output_dir .
 ```
 
 Run all models recursively:
-```sh run_classifier.sh```
+```
+sh run_classifier.sh
+```
 
 ## Saving
 All the models and evaluation results will be saved under the "output" folder.
