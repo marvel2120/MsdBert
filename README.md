@@ -2,8 +2,22 @@
 This repository is an implementation for the paper "Modeling Intra and Inter-modality Incongruity for Multi-Modal Sarcasm Detection" that is published at the Findings of EMNLP-2020.
 
 # How to use?
+## Envs
+```
+torchvision==0.7.0+cu101
+numpy==1.18.5
+transformers==3.2.0
+tqdm==4.49.0
+wordninja==2.0.0
+torch==1.6.0+cu101
+Pillow==8.0.1
+scikit_learn==0.24.0
+```
+
 ## Install
-```pip3 install -r requirements.txt```
+```
+pip3 install -r requirements.txt
+```
 
 ## Dataset
 You can find the Image data from https://github.com/headacheboy/data-of-multimodal-sarcasm-detection.
