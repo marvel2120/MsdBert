@@ -3,7 +3,7 @@ This repository is an implementation for the paper "Modeling Intra and Inter-mod
 
 # How to use?
 ## Install
-`pip3 install -r requirements.txt`
+```pip3 install -r requirements.txt```
 
 ## Dataset
 You can find the Image data from https://github.com/headacheboy/data-of-multimodal-sarcasm-detection.
@@ -12,13 +12,13 @@ Put the images under a folder named "Images"
 
 ## Train and Test
 Train:
-`python run_classifier.py --data_dir ./data/ --image_dir ./images/ --output_dir ./output/${i}_output/  --do_train --do_test --model_select ${i}`
+```python run_classifier.py --data_dir ./data/ --image_dir ./images/ --output_dir ./output/${i}_output/  --do_train --do_test --model_select ${i}```
 
 Test:
-`python run_classifier.py --data_dir ./data/ --image_dir ./images/ --output_dir ./output/${i}_output/  --do_test --model_select ${i}`
+```python run_classifier.py --data_dir ./data/ --image_dir ./images/ --output_dir ./output/${i}_output/  --do_test --model_select ${i}```
 
 Run all models recursively:
-`sh run_classifier.sh`
+```sh run_classifier.sh```
 
 ## Saving
 All the models and evaluation results will be saved under the "output" folder.
