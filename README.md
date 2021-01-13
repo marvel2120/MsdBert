@@ -1,6 +1,6 @@
 # MsdBert
 This repository is an implementation for the paper "Modeling Intra and Inter-modality Incongruity for Multi-Modal Sarcasm Detection" that is published at the Findings of EMNLP-2020.
-
+https://www.aclweb.org/anthology/2020.findings-emnlp.124.pdf
 # How to use?
 ## Envs
 ```
